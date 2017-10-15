@@ -1,0 +1,52 @@
+.todo-app {
+  position: relative;
+  width: 400px;
+  padding: 30px 30px 15px;
+  background: bisque;
+  border: 1px solid;
+  border-color: #333 #222 #555;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+.todo-app:before, .todo-app:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  height: 4px;
+  background: burlywood;
+  border: 1px solid #555;
+  border-radius: 2px;
+}
+
+.todo-app:after {
+  bottom: -3px;
+  left: 0;
+  right: 0;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.todo-app:before {
+  bottom: -5px;
+  left: 2px;
+  right: 2px;
+  border-color: #333;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.todo-app h1 {
+  font-size: 52px;
+  line-height: 52px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: -0.8px;
+}
+
+.todo-add {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,28 @@
+.todo-item {
+  padding: 10px 0;
+  border-top: solid 1px burlywood;
+  min-height: 30px;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-checkbox {
+  flex-shrink: 0;
+  margin: auto 1ex auto 0;
+}
+
+.todo-title {
+  flex-grow: 1;
+  padding-left: 11px;
+  text-transform: capitalize;
+}
+
+.btn-red {
+  background: darkred;
+}
+
+.btn-red:hover {
+  background: tomato;
+  color: #fff;
+}
